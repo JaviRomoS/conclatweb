@@ -1,0 +1,99 @@
+---
+pagetitle: "Contacto"
+lang: es
+page-layout: custom
+title-block-banner: false
+toc: false
+---
+
+```{=html}
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Contacto</h1>
+</div>
+</div>
+```
+
+```{=html}
+<div class="section full-bleed">
+<div class="contact-split">
+
+<div class="contact-map">
+<h2 class="contact-h">Información</h2>
+<p class="contact-addr"><strong>Dirección:</strong> Departamento de Sociología, Facultad de Ciencias Sociales (FACSO), Universidad de Chile. Capitán Ignacio Carrera Pinto 1045, Ñuñoa, Santiago.</p>
+<div class="map"><iframe title="Mapa de Conclat (FACSO, Universidad de Chile)" src="https://www.google.com/maps?q=-33.4677744,-70.5944655&z=17&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+<div class="btn-wrap"><a class="btn btn-outline-secondary" href="https://www.google.com/maps/place/Facultad+de+Ciencias+Sociales+de+la+Universidad+de+Chile/@-33.4677744,-70.5944655,17z" target="_blank" rel="noopener">Ver en Google Maps</a></div>
+</div>
+
+<form id="form-contacto" class="contact-form" novalidate>
+<h2 class="contact-h">Envíanos un mensaje</h2>
+<div class="fgrid">
+<div class="fcol">
+<label class="form-label" for="c-nombre">Nombre</label>
+<input class="form-control" type="text" id="c-nombre" required>
+</div>
+<div class="fcol">
+<label class="form-label" for="c-correo">Tu correo</label>
+<input class="form-control" type="email" id="c-correo" required>
+</div>
+<div class="fcol full">
+<label class="form-label" for="c-asunto">Asunto</label>
+<input class="form-control" type="text" id="c-asunto">
+</div>
+<div class="fcol full">
+<label class="form-label" for="c-mensaje">Mensaje</label>
+<textarea class="form-control" id="c-mensaje" rows="6" required></textarea>
+<div class="form-text">Incluye fechas, público y enlaces si aplica.</div>
+</div>
+</div>
+<div class="mt-3">
+<button class="btn btn-primary" type="submit">Enviar</button>
+</div>
+</form>
+
+</div>
+</div>
+
+<script>
+(function(){
+  var f=document.getElementById('form-contacto'); if(!f) return;
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(!f.reportValidity()) return;
+    var v=function(id){return document.getElementById(id).value.trim();};
+    var asunto=v('c-asunto')||'Consulta desde el sitio Conclat';
+    var cuerpo=v('c-mensaje')+'\n\n--\n'+v('c-nombre')+'\n'+v('c-correo');
+    window.location.href='mailto:fondecytconclat@gmail.com?subject='+encodeURIComponent(asunto)+'&body='+encodeURIComponent(cuerpo);
+  });
+})();
+</script>
+```
+
+```{=html}
+<div class="section section-gray full-bleed">
+<div class="contact-boxes">
+
+<div class="study-card">
+<i class="bi bi-envelope-fill"></i>
+<h3>Correo</h3>
+<p><a href="mailto:fondecytconclat@gmail.com?subject=Consulta%20desde%20el%20sitio%20Conclat">fondecytconclat@gmail.com</a></p>
+</div>
+
+<div class="study-card teal">
+<i class="bi bi-instagram"></i>
+<h3>Instagram</h3>
+<p><a href="https://www.instagram.com/proyecto.conclat/" target="_blank" rel="noopener">@proyecto.conclat</a></p>
+</div>
+
+</div>
+</div>
+```
+
+```{=html}
+<div class="logos-strip full-bleed">
+<div class="logos">
+<a href="https://anid.cl"><img src="../resources/img/anid.png" alt="ANID"></a>
+<a href="https://uchile.cl"><img src="../resources/img/uch.png" alt="Universidad de Chile"></a>
+</div>
+</div>
+```

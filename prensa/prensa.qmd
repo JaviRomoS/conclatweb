@@ -1,0 +1,31 @@
+---
+pagetitle: "Prensa"
+lang: es
+page-layout: custom
+title-block-banner: false
+toc: false
+listing:
+  id: notas
+  contents: posts
+  template: ../resources/prensa.ejs
+  sort: "date desc"
+  sort-ui: [date, title]
+  filter-ui: [title, subtitle, categories, tipo]
+  fields: [title, subtitle, date, image, categories, tipo, medio, path]
+  date-format: "D MMM YYYY"
+  page-size: 50
+---
+
+```{=html}
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Prensa</h1>
+<div class="page-lead"><p>Columnas de opinión y cartas del equipo Conclat en medios de comunicación.</p></div>
+</div>
+</div>
+```
+
+::: {.press-wrap}
+::: {#notas}
+:::
+:::

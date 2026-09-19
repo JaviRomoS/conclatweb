@@ -3,15 +3,58 @@ project:
   output-dir: docs        # Quarto guarda aquí la web ya compilada; GitHub Pages publica esta carpeta
 
 website:
-  title: "CONCLAT"
+  title: "Conclat"
   description: "Fondecyt Clases, Trabajo y Conflicto"
   favicon: resources/img/conclat_logo_principal_rojo.png
+  page-footer:
+    background: "#6f0000"
+    foreground: "#ffffff"
+    border: false
+    left: |
+      []{.footer-logo role="img" aria-label="Conclat"}
+
+      Fondecyt Regular N° 1230056 (2023-2027)
+    center: |
+      **Contacto institucional**
+
+      Departamento de Sociología, Facultad de Ciencias Sociales, Universidad de Chile\
+      Capitán Ignacio Carrera Pinto 1045, Ñuñoa, Santiago\
+      [fondecytconclat@gmail.com](mailto:fondecytconclat@gmail.com)
+    right: |
+      **Síguenos**
+
+      [Instagram](https://www.instagram.com/proyecto.conclat/){target="_blank"}\
+      [Contacto](/contacto/contacto.qmd)
+
+      © 2026 Proyecto Conclat
   navbar:
+    title: false
     logo: resources/img/conclat_ID_principal_rojo.png
     background: "#FFFFFF"
     left:
       - text: Inicio
         href: index.qmd
+      - text: Sobre Conclat
+        icon: info-square-fill
+        href: informacion/01-sobre.qmd
+      - text: Nuestro equipo
+        icon: people-fill
+        href: nosotros/nosotros.qmd
+      - text: Encuesta
+        icon: clipboard2-data-fill
+        href: encuesta/encuesta.qmd
+      - text: Investigación
+        icon: journals
+        href: investigacion/investigacion.qmd
+      - text: Prensa
+        icon: newspaper
+        href: prensa/prensa.qmd
+      - text: Actividades
+        icon: calendar-week
+        href: actividades/actividades.qmd
+      - text: Contacto
+        icon: envelope-fill
+        href: contacto/contacto.qmd
 
 format:
   html:

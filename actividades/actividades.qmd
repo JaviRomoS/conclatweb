@@ -1,0 +1,31 @@
+---
+pagetitle: "Actividades"
+lang: es
+page-layout: custom
+title-block-banner: false
+toc: false
+listing:
+  id: actividades
+  contents: posts
+  template: ../resources/actividad.ejs
+  sort: "date desc"
+  sort-ui: [date, title]
+  filter-ui: [title, subtitle, categories, tipo]
+  fields: [title, subtitle, date, image, categories, tipo, path]
+  date-format: "D MMM YYYY"
+  page-size: 50
+---
+
+```{=html}
+<div class="page-hero full-bleed">
+<div class="page-hero-inner">
+<h1 class="page-title">Actividades</h1>
+<div class="page-lead"><p>Congresos, charlas, ponencias y otros encuentros en los que participa el equipo Conclat.</p></div>
+</div>
+</div>
+```
+
+::: {.press-wrap}
+::: {#actividades}
+:::
+:::
