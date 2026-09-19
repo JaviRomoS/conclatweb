@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs        # Quarto guarda aquí la web ya compilada; GitHub Pages publica esta carpeta
+
+website:
+  title: "CONCLAT"
+  description: "Fondecyt Clases, Trabajo y Conflicto"
+  favicon: resources/img/conclat_logo_principal_rojo.png
+  navbar:
+    logo: resources/img/conclat_ID_principal_rojo.png
+    background: "#FFFFFF"
+    left:
+      - text: Inicio
+        href: index.qmd
+
+format:
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    linkcolor: "#CA0000"

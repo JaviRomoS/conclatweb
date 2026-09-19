@@ -1,0 +1,10 @@
+---
+title: "Fondecyt Clases, Trabajo y Conflicto"
+pagetitle: "CONCLAT"
+---
+
+Esta es la **nueva propuesta** de sitio web para el proyecto CONCLAT.
+
+El Proyecto CONCLAT estudia cómo se percibe el conflicto laboral y político en Argentina y Chile.
+
+*(Página de prueba: aquí iremos construyendo la portada.)*

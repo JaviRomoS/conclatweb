@@ -1,0 +1,7 @@
+/* Colores del proyecto (los mismos de la web actual) */
+:root {
+  --conclat-rojo: #CA0000;
+  --conclat-rojo-oscuro: #6f0000;
+}
+
+h1, h2, h3 { color: var(--conclat-rojo-oscuro); }
