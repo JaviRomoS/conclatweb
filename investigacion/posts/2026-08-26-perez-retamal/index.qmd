@@ -2,7 +2,7 @@
 title: "Los efectos igualadores de género de los sindicatos: la afiliación sindical y las brechas de género en la participación política en América Latina"
 subtitle: "Pablo Pérez Ahumada & Patricia Retamal"
 date: "2026-08-26"
-revista: "Revista de Relaciones Industriales"
+revista: "Journal of Industrial Relations"
 categories: [Sindicatos, Género, Participación política]
 lang: es
 ---
@@ -13,7 +13,7 @@ lang: es
 
 <details class="details-btn" markdown="1">
   <summary><span class="summary-chip">Cita (APA 7)</span></summary>
-  <p class="apa-ref"><strong>Pérez-Ahumada, P. & Retamal, P. </strong> (2026). <em>The gender-equalizing effects of labor unions: Union membership and gender gaps in political participation in Latin America. </em> <em>Revista de Relaciones Industriales</em>, 0(0). https://doi.org/10.1177/00221856261481696</p>
+  <p class="apa-ref"><strong>Pérez-Ahumada, P. & Retamal, P. </strong> (2026). <em>The gender-equalizing effects of labor unions: Union membership and gender gaps in political participation in Latin America. </em> <em>Journal of Industrial Relations</em>. Advance online publication. https://doi.org/10.1177/00221856261481696</p>
 </details>
 
 ## Abstract 

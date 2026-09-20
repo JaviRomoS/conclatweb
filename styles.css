@@ -751,11 +751,3 @@ img.post-figure{ display:block; max-width:560px; width:100%; margin:1rem auto; b
 .contact-boxes .study-card{ text-align:center; }
 .contact-boxes .study-card a{ color:var(--c-red); font-weight:600; overflow-wrap:normal; }
 .contact-boxes .study-card.teal a{ color:var(--c-teal); }
-
-/* ===== 25. ESCALA GENERAL: más compacto en pantallas de notebook ===== */
-html:root{ font-size:15px; }
-.hero-home .hero-logo, .hero-heading-content img{ width:70%; max-width:500px; }
-.hero-heading-wrapper{ padding-block:2rem; }
-.page-hero .page-title{ font-size:clamp(1.7rem, 4vw, 2.4rem); }
-.about-text p{ font-size:1.08rem; }
-.contact-map .map iframe, .contact-split .map iframe{ height:340px; }
