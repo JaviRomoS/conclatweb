@@ -187,7 +187,7 @@ html, body{ max-width:100%; overflow-x:clip; }
   background:var(--c-ink) url(resources/img/koshu-kunii-t86cJxwmBWc-unsplash.jpg) center/cover no-repeat;
   padding:clamp(3rem, 8vw, 6rem) 1.25rem;
 }
-.image-band::before{ content:""; position:absolute; inset:0; background:linear-gradient(135deg, rgba(111,0,0,.93) 0%, rgba(138,0,0,.88) 55%, rgba(202,0,0,.80) 140%); z-index:-1; }
+.image-band::before{ content:""; position:absolute; inset:0; background:linear-gradient(135deg, var(--c-red-dark) 0%, #8a0000 55%, var(--c-red) 140%); opacity:.94; z-index:-1; }
 .image-band .inner{ width:min(100%, 900px); margin-inline:auto; text-align:center; }
 .image-band h2{ color:#fff; font-weight:800; border:0; }
 .image-band p{ font-size:clamp(1rem, 2.2vw, 1.25rem); }
@@ -652,11 +652,11 @@ a:hover{ color:var(--c-red-hover); }
 .press-meta{ font-size:.78rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--c-muted); }
 .press-tipo{ color:var(--c-red-dark); }
 /* etiquetas de las tarjetas: rojo (Prensa); azul en Actividades (.press-wrap.teal) */
-.press-card .pub-tag{ color:var(--c-red-dark); background:#fbeaea; }
+.press-card .pub-tag{ color:var(--c-red-dark); background:transparent; border:1px solid var(--c-red-soft); }
 .press-wrap.teal .press-card{ border-top-color:var(--c-teal); }
 .press-wrap.teal .press-tipo{ color:var(--c-teal-dark); }
 .press-wrap.teal .press-title a:hover{ color:var(--c-teal); }
-.press-wrap.teal .press-card .pub-tag{ color:var(--c-teal-dark); background:var(--c-teal-tint); }
+.press-wrap.teal .press-card .pub-tag{ color:var(--c-teal-dark); background:var(--c-teal-tint); border:0; }
 .press-title{ font-size:1.08rem; font-weight:800; line-height:1.35; }
 .press-title a{ color:var(--c-ink); text-decoration:none; font-weight:800; }
 .press-title a:hover{ color:var(--c-red); }
@@ -759,3 +759,8 @@ img.post-figure{ display:block; max-width:560px; width:100%; margin:1rem auto; b
 .section-tint .cite-box{ border-left-color:var(--c-red); }
 .section-tint .cite-box h3{ color:var(--c-red-dark); }
 .section-tint .cite-box a{ color:var(--c-red); }
+
+/* ===== CONTACTO: todo en rojo; franja en el blanco cálido del sitio (.section-alt) ===== */
+.section-alt + .logos-strip{ background:#fff; }
+.btn-outline-red{ color:var(--c-red); border:1px solid var(--c-red); background:transparent; border-radius:999px; font-weight:600; }
+.btn-outline-red:hover{ background:var(--c-red); border-color:var(--c-red); color:#fff; }
