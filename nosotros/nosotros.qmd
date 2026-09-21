@@ -52,6 +52,7 @@ toc: false
 <div class="card-contacto"><a href="mailto:francisca.gutierrez@uach.cl" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.economicas.uach.cl/academico/francisca-gutierrez-crocco/" target="_blank" rel="noopener" aria-label="Web" title="Web"><i class="bi bi-globe"></i></a><a class="txt" href="https://orcid.org/0000-0002-5445-2833" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID">iD</a></div>
 <a class="team-more" href="miembros/gutierrez.html">Ver perfil &rarr;</a>
 </article>
+
 <article class="team-card">
 <a class="team-link" href="miembros/elbert.html">
 <img class="team-photo" src="../resources/img/equipo/elbert.jpg" alt="Rodolfo Elbert" loading="lazy">
@@ -61,6 +62,7 @@ toc: false
 <div class="card-contacto"><a href="mailto:elbert.rodolfo@gmail.com" aria-label="Correo" title="Correo"><i class="bi bi-envelope-fill"></i></a><a href="https://www.conicet.gov.ar/new_scp/detalle.php?id=35394&amp;datos_academicos=yes" target="_blank" rel="noopener" aria-label="Web" title="Web"><i class="bi bi-globe"></i></a></div>
 <a class="team-more" href="miembros/elbert.html">Ver perfil &rarr;</a>
 </article>
+
 <article class="team-card">
 <a class="team-link" href="miembros/boniolo.html">
 <img class="team-photo" src="../resources/img/equipo/boniolo.jpg" alt="Paula Boniolo" loading="lazy">

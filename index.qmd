@@ -80,7 +80,7 @@ format:
 <i class="bi bi-people-fill"></i><h3>Equipo</h3>
 <p>Quiénes somos.</p><span class="go">Ver más →</span>
 </a>
-<a class="explore-card teal" href="encuesta/encuesta.html">
+<a class="explore-card" href="encuesta/encuesta.html">
 <i class="bi bi-bar-chart-fill"></i><h3>Encuesta Conclat</h3>
 <p>Descarga la base de datos y la documentación.</p><span class="go">Ver más →</span>
 </a>

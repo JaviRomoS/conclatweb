@@ -22,7 +22,7 @@ toc: false
 <h2 class="contact-h">Información</h2>
 <p class="contact-addr"><strong>Dirección:</strong> Departamento de Sociología, Facultad de Ciencias Sociales (FACSO), Universidad de Chile. Capitán Ignacio Carrera Pinto 1045, Ñuñoa, Santiago.</p>
 <div class="map"><iframe title="Mapa de Conclat (FACSO, Universidad de Chile)" src="https://www.google.com/maps?q=-33.4677744,-70.5944655&z=17&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-<div class="btn-wrap"><a class="btn btn-outline-secondary" href="https://www.google.com/maps/place/Facultad+de+Ciencias+Sociales+de+la+Universidad+de+Chile/@-33.4677744,-70.5944655,17z" target="_blank" rel="noopener">Ver en Google Maps</a></div>
+<div class="btn-wrap"><a class="btn btn-outline-red" href="https://www.google.com/maps/place/Facultad+de+Ciencias+Sociales+de+la+Universidad+de+Chile/@-33.4677744,-70.5944655,17z" target="_blank" rel="noopener">Ver en Google Maps</a></div>
 </div>
 
 <form id="form-contacto" class="contact-form" novalidate>
@@ -70,7 +70,7 @@ toc: false
 ```
 
 ```{=html}
-<div class="section section-gray full-bleed">
+<div class="section section-rose full-bleed">
 <div class="contact-boxes">
 
 <div class="study-card">
@@ -79,7 +79,7 @@ toc: false
 <p><a href="mailto:fondecytconclat@gmail.com?subject=Consulta%20desde%20el%20sitio%20Conclat">fondecytconclat@gmail.com</a></p>
 </div>
 
-<div class="study-card teal">
+<div class="study-card">
 <i class="bi bi-instagram"></i>
 <h3>Instagram</h3>
 <p><a href="https://www.instagram.com/proyecto.conclat/" target="_blank" rel="noopener">@proyecto.conclat</a></p>

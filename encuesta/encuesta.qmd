@@ -33,12 +33,12 @@ toc: false
 ```{=html}
 <!-- ========== 3. MÓDULOS ========== -->
 <div class="section section-tint full-bleed">
-<div class="section-head teal">
+<div class="section-head">
 <span class="kicker">El cuestionario</span>
 <h2>Tres módulos de preguntas</h2>
 </div>
 <div class="study-grid">
-<div class="study-card teal">
+<div class="study-card">
 <i class="bi bi-person-vcard-fill"></i>
 <h3>Clase social</h3>
 <p>Antecedentes demográficos y posición de clase de cada persona encuestada.</p>
@@ -48,7 +48,7 @@ toc: false
 <h3>Trabajo</h3>
 <p>Relaciones laborales y condiciones de empleo.</p>
 </div>
-<div class="study-card teal">
+<div class="study-card">
 <i class="bi bi-chat-square-text-fill"></i>
 <h3>Percepciones</h3>
 <p>Opiniones sobre la situación político-económica actual.</p>
@@ -65,7 +65,7 @@ toc: false
 <h2>Fechas y lugares de aplicación</h2>
 </div>
 <div class="compare-grid">
-<div class="compare-card">
+<div class="compare-card teal">
 <span class="compare-figure country">Chile</span>
 <p class="compare-detail"><strong>3.048 personas</strong> · 19 nov. 2024 al 20 ene. 2025</p>
 <p class="compare-detail">Residentes en las 15 regiones del país.</p>
@@ -82,7 +82,7 @@ toc: false
 ```{=html}
 <!-- ========== 5. OBJETIVOS ========== -->
 <div class="section section-tint full-bleed">
-<div class="section-head teal">
+<div class="section-head">
 <span class="kicker">Qué buscamos</span>
 <h2>Objetivos</h2>
 </div>
@@ -90,7 +90,7 @@ toc: false
 <p class="survey-text">Comprender cómo la clase social y la afiliación sindical influyen en dos tipos de conflicto.</p>
 </div>
 <div class="study-grid study-grid-2">
-<div class="study-card teal">
+<div class="study-card">
 <i class="bi bi-people-fill"></i>
 <h3>Conflicto social</h3>
 <p>Percepción de tensiones en el trabajo (por ejemplo, entre empresarios y trabajadores) y atribución de responsabilidad por problemas como el desempleo y la inflación.</p>
@@ -123,7 +123,7 @@ toc: false
 <h3>Manual Metodológico</h3>
 <p>Describe el diseño del estudio, la construcción de la muestra, el trabajo de campo y los procedimientos de codificación y validación aplicados en Chile y Argentina.</p>
 </div>
-<div class="study-card">
+<div class="study-card teal">
 <i class="bi bi-book-fill"></i>
 <h3>Libro de Códigos</h3>
 <p>Detalla todas las variables de la base: etiquetas, valores posibles, restricciones y notas de codificación.</p>
@@ -139,7 +139,7 @@ toc: false
 ```{=html}
 <!-- ========== 7. CÓMO CITAR ========== -->
 <div class="section section-tint full-bleed">
-<div class="section-head teal">
+<div class="section-head">
 <span class="kicker">Referencias</span>
 <h2>Cómo citar</h2>
 </div>

@@ -187,7 +187,7 @@ html, body{ max-width:100%; overflow-x:clip; }
   background:var(--c-ink) url(resources/img/koshu-kunii-t86cJxwmBWc-unsplash.jpg) center/cover no-repeat;
   padding:clamp(3rem, 8vw, 6rem) 1.25rem;
 }
-.image-band::before{ content:""; position:absolute; inset:0; background:rgba(33,33,33,.72); z-index:-1; }
+.image-band::before{ content:""; position:absolute; inset:0; background:linear-gradient(135deg, rgba(111,0,0,.93) 0%, rgba(138,0,0,.88) 55%, rgba(202,0,0,.80) 140%); z-index:-1; }
 .image-band .inner{ width:min(100%, 900px); margin-inline:auto; text-align:center; }
 .image-band h2{ color:#fff; font-weight:800; border:0; }
 .image-band p{ font-size:clamp(1rem, 2.2vw, 1.25rem); }
@@ -316,8 +316,6 @@ a:hover{ color:var(--c-red-hover); }
 /* Página de Encuesta: cifras y banda de descarga en petróleo, con rojo como acento */
 .survey-facts .fact{ border-left-color:var(--c-teal); }
 .survey-facts .fact strong{ color:var(--c-teal-dark); }
-.survey-facts .fact:nth-child(even){ border-left-color:var(--c-red); }
-.survey-facts .fact:nth-child(even) strong{ color:var(--c-red-dark); }
 
 .cta-band.teal{ background:var(--c-teal); }
 .cta-band.teal p{ color:var(--c-teal-light); opacity:1; }
@@ -513,7 +511,7 @@ a:hover{ color:var(--c-red-hover); }
   transition:box-shadow .18s ease;
 }
 .team-card:hover{ box-shadow:var(--shadow-md); }
-.section-alt .team-card:nth-child(even){ border-top-color:var(--c-teal); }
+.section-alt .team-card{ border-top-color:var(--c-teal); }
 .team-photo{
   display:block; width:150px; height:150px; margin:0 auto 1rem;
   border-radius:50%; object-fit:cover; object-position:center 18%;
@@ -524,7 +522,7 @@ a:hover{ color:var(--c-red-hover); }
   display:inline-block; font-size:.72rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
   color:var(--c-red-dark); border:1px solid var(--c-red-soft); border-radius:999px; padding:.15rem .7rem;
 }
-.section-alt .team-card:nth-child(even) .team-role{ color:var(--c-teal-dark); border-color:var(--c-teal); }
+.section-alt .team-card .team-role{ color:var(--c-teal-dark); border-color:var(--c-teal); }
 
 /* botones de contacto (redondos); las redes sin ícono llevan una sigla */
 .team-card .card-contacto{ margin-top:.9rem; display:flex; justify-content:center; flex-wrap:wrap; gap:.5rem; }
@@ -536,8 +534,8 @@ a:hover{ color:var(--c-red-hover); }
 }
 .team-card .card-contacto a:hover{ background:var(--c-red-dark); transform:scale(1.08); color:#fff; }
 .team-card .card-contacto a.txt{ font-size:.68rem; font-weight:800; letter-spacing:.02em; }
-.section-alt .team-card:nth-child(even) .card-contacto a{ background:var(--c-teal); }
-.section-alt .team-card:nth-child(even) .card-contacto a:hover{ background:var(--c-teal-deep); }
+.section-alt .team-card .card-contacto a{ background:var(--c-teal); }
+.section-alt .team-card .card-contacto a:hover{ background:var(--c-teal-deep); }
 
 /* perfil desplegable */
 .team-bio{ margin-top:1rem; text-align:left; }
@@ -549,7 +547,7 @@ a:hover{ color:var(--c-red-hover); }
 .team-bio summary::after{ content:" ▾"; }
 .team-bio[open] summary::after{ content:" ▴"; }
 .team-bio summary:hover{ color:var(--c-red-dark); }
-.section-alt .team-card:nth-child(even) .team-bio summary{ color:var(--c-teal); }
+.section-alt .team-card .team-bio summary{ color:var(--c-teal); }
 .team-bio p{ font-size:.9rem; line-height:1.55; color:var(--c-muted); margin:.7rem 0 0; }
 
 /* ===== 19. PERFIL INDIVIDUAL ===== */
@@ -557,8 +555,8 @@ a:hover{ color:var(--c-red-hover); }
 .team-link:hover h3{ color:var(--c-red); }
 .team-more{ display:inline-block; margin-top:1rem; font-size:.88rem; font-weight:700; color:var(--c-red); text-decoration:none; }
 .team-more:hover{ color:var(--c-red-dark); text-decoration:underline; }
-.section-alt .team-card:nth-child(even) .team-more,
-.section-alt .team-card:nth-child(even) .team-link:hover h3{ color:var(--c-teal); }
+.section-alt .team-card .team-more,
+.section-alt .team-card .team-link:hover h3{ color:var(--c-teal); }
 .profile{ max-width:980px; margin:0 auto; padding:0 1.25rem; display:grid; grid-template-columns:260px 1fr; gap:2.5rem; align-items:start; }
 .profile-side{ text-align:center; background:#fff; border-radius:14px; border-top:4px solid var(--c-red); box-shadow:var(--shadow-md,0 6px 20px rgba(0,0,0,.08)); padding:1.75rem 1.25rem; }
 .profile-photo{ width:180px; height:180px; margin:0 auto 1rem; display:block; }
@@ -646,7 +644,6 @@ a:hover{ color:var(--c-red-hover); }
   box-shadow:var(--shadow-sm); border-top:4px solid var(--c-red);
   display:flex; flex-direction:column; transition:box-shadow .18s ease, transform .18s ease;
 }
-.press-card:nth-child(even){ border-top-color:var(--c-teal); }
 .press-card:hover{ box-shadow:var(--shadow-md); transform:translateY(-2px); }
 .press-img-link{ display:block; }
 .press-img{ display:block; width:100%; height:190px; object-fit:cover; }
@@ -654,7 +651,12 @@ a:hover{ color:var(--c-red-hover); }
 .press-body p{ margin:0; }
 .press-meta{ font-size:.78rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--c-muted); }
 .press-tipo{ color:var(--c-red-dark); }
-.press-card:nth-child(even) .press-tipo{ color:var(--c-teal-dark); }
+/* etiquetas de las tarjetas: rojo (Prensa); azul en Actividades (.press-wrap.teal) */
+.press-card .pub-tag{ color:var(--c-red-dark); background:#fbeaea; }
+.press-wrap.teal .press-card{ border-top-color:var(--c-teal); }
+.press-wrap.teal .press-tipo{ color:var(--c-teal-dark); }
+.press-wrap.teal .press-title a:hover{ color:var(--c-teal); }
+.press-wrap.teal .press-card .pub-tag{ color:var(--c-teal-dark); background:var(--c-teal-tint); }
 .press-title{ font-size:1.08rem; font-weight:800; line-height:1.35; }
 .press-title a{ color:var(--c-ink); text-decoration:none; font-weight:800; }
 .press-title a:hover{ color:var(--c-red); }
@@ -751,3 +753,9 @@ img.post-figure{ display:block; max-width:560px; width:100%; margin:1rem auto; b
 .contact-boxes .study-card{ text-align:center; }
 .contact-boxes .study-card a{ color:var(--c-red); font-weight:600; overflow-wrap:normal; }
 .contact-boxes .study-card.teal a{ color:var(--c-teal); }
+
+/* ===== ENCUESTA: azul sobre franja blanca, rojo sobre franja de color (.section-tint) ===== */
+.section-tint .survey-intro a:not(.btn){ color:var(--c-red); }
+.section-tint .cite-box{ border-left-color:var(--c-red); }
+.section-tint .cite-box h3{ color:var(--c-red-dark); }
+.section-tint .cite-box a{ color:var(--c-red); }
